@@ -61,5 +61,4 @@ function Resumes(){
     </Layout>
   );
 }
-
 export default Resumes;

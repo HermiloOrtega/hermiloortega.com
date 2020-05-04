@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
-import axios from 'axios';
-import * as Icon from "react-feather";
+import axios        from 'axios';
+import * as Icon    from "react-feather";
 import Sectiontitle from "../components/Sectiontitle";
-import Layout from "../components/Layout";
+import Layout       from "../components/Layout";
 
 function Contact(){
   const [phoneNumbers, setPhoneNumbers] = useState([]);
   const [emailAddress, setEmailAddress] = useState([]);
   const [address, setAddress] = useState([]);
   const [formdata, setFormdata] = useState({
-    name: "",
-    email: "",
+    name:    "",
+    email:   "",
     subject: "",
     message: ""
   });

@@ -5,8 +5,8 @@ const database = {
     name: 'Hermilo Ortega',
     aboutContent: "I am a Full Stack Software Developer with 6+ years of experience."+
                   " helping companies to reduce time, costs and effort automating processes through high-performance"+
-                  " web technologies and implementing advanced methodologies to manage business according to their needs."+
-                  " Team player with a will-do attitude and strong user focus.",
+                  " web technologies and implementing advanced methodologies to manage business according to their needs.",
+                  //" Team player with a will-do attitude and strong user focus.",
     //age: 28,
     phone: '(236) 979 0254',
     //nationality: 'Mexican',
@@ -15,33 +15,33 @@ const database = {
     address: '4615 West 10th Avenue, Vancouver, BC',
     //freelanceStatus: 'Available',
     socialLinks: {
+      github:     'https://github.com/hermiloortega',
+      linkedin:   'https://linkedin.com/in/hermilomartinez',
       facebook:   'https://www.facebook.com/josehermilo1',
       twitter:    'https://twitter.com/Hermilo_O_Mtz',
       pinterest:  '',
       behance:    '',
-      linkedin:   'https://linkedin.com/in/hermilomartinez',
       dribbble:   '',
-      github:     'https://github.com/hermiloortega'
     },
-    brandImage:   '/images/brand-image.jpg',
-    aboutImage:   '/images/about-image.jpg',
-    aboutImageLg: '/images/about-image-lg.jpg',
+    brandImage:   '/images/Hermilo-Ortega.png',
+    aboutImage:   '/images/about-image.png',
+    aboutImageLg: '/images/about-image-lg.png',
     cvfile:       '/files/empty.pdf'
   },
   services: [
-    { title: "Web Design",          icon: 'color-pallet', details: "." },
-    { title: "Web Development",     icon: 'code',         details: "." },
-    { title: "Mobile Application",  icon: 'mobile',       details: "." }
+    { title: "Software Development",  icon: 'code',   details: "" },
+    { title: "Web Development",       icon: 'code',   details: "" },
+    { title: "Mobile Application",    icon: 'mobile', details: "" }
   ],
   reviews: [
-    { id: 1, content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam, aliquid maxime tempora.",
-      author: { name: 'Burdette Turner', designation: 'Web Developer, Abc Company' }
+    { id: 1, content: "Hermilo help me with the Web design and marketing of my website and is amazing! He is very kind and always work very hard",
+      author: { name: 'Fernando Aguilar', designation: 'CEO Working4U' }
     },
-    { id: 2, content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam.",
-      author: { name: 'Susan Yost', designation: 'Client' }
+    { id: 2, content: "I start to work with hermilo since January with the develop of my website and the social media marketing and thanks him I increase my sell's, I love the website and the work that he do.",
+      author: { name: 'Cristela Berenice', designation: 'Inlab Owner' }
     },
-    { id: 3, content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-      author: { name: 'Irving Feeney', designation: 'Fiverr Client' }
+    { id: 3, content: "I love my website and nowadays I'm still working with hermilo building a new e-commerce, he is very reliable, always working on time. ",
+      author: { name: 'Paulo Cesar Ortiz', designation: 'English and Tours Owner' }
     }
   ],
   skills: [
@@ -54,80 +54,53 @@ const database = {
   ],
   portfolios: [
     { id: 1, title: "Jucod"                           , subtitle: "Web and Mobile App Development website.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
+      imageUrl: "/images/portfolio-image-1.png",
+      largeImageUrl: ["/images/portfolio-image-1-lg.png"],
       url: 'https://jucod.com'
     },
     { id: 2, title: "English and Tours"               , subtitle: "Awesome travel agency.",
-      imageUrl: "/images/portfolio-image-4.jpg",
-      largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
-      ],
+      imageUrl: "/images/portfolio-image-2.png",
+      largeImageUrl: ["/images/portfolio-image-2-lg.png"],
       url: 'https://englishandtours.com'
     },
     { id: 3, title: "Servicios DAESA"                 , subtitle: "Professional Industrial engineer.",
-      imageUrl: "/images/.jpg",
-      largeImageUrl: [
-        "/images/.jpg",
-        "/images/.jpg"
-      ],
-      url: 'https://.com'
+      imageUrl: "/images/portfolio-image-3.png",
+      largeImageUrl: ["/images/portfolio-image-3-lg.png"],
+      url: 'https://serviciosdaesa.com'
     },
-    { id: 4, title: "Fundacion Taraji"                , subtitle: ".",
-      imageUrl: "/images/.jpg",
-      largeImageUrl: [
-        "/images/.jpg",
-        "/images/.jpg"
-      ],
-      url: 'https://.com'
-    },
-    { id: 5, title: "InLab - Insumos para laboratorio", subtitle: ".",
-      imageUrl: "/images/.jpg",
-      largeImageUrl: [
-        "/images/.jpg",
-        "/images/.jpg"
-      ],
-      url: 'https://inlabmexico.com'
-    },
-    { id: 6, title: "Mr. Nails."                      , subtitle: ".",
-      imageUrl: "/images/.jpg",
-      largeImageUrl: [
-        "/images/.jpg",
-        "/images/.jpg"
-      ],
-      url: 'https://mrnails.com.mx'
-    },
-    { id: 7, title: "Working4U"                       , subtitle: ".",
-      imageUrl: "/images/.jpg",
-      largeImageUrl: [
-        "/images/.jpg",
-        "/images/.jpg"
-      ],
+    { id: 4, title: "Working4U"                       , subtitle: "",
+      imageUrl: "/images/portfolio-image-4.png",
+      largeImageUrl: ["/images/portfolio-image-4-lg.png"],
       url: 'https://working4ubc.ca'
     },
-    { id: 8, title: "Mr Cachuchero"                   , subtitle: ".",
-      imageUrl: "/images/.jpg",
-      largeImageUrl: [
-        "/images/.jpg",
-        "/images/.jpg"
-      ],
-      url: 'https://mrcachuchero.com'
-    },
-    { id: 9, title: "Simply Recruiting Inc."          , subtitle: ".",
-      imageUrl: "/images/.jpg",
-      largeImageUrl: [
-        "/images/.jpg",
-        "/images/.jpg"
-      ],
+    { id: 5, title: "Simply Recruiting Inc."          , subtitle: "",
+      imageUrl: "/images/portfolio-image-5.png",
+      largeImageUrl: ["/images/portfolio-image-5-lg.png"],
       url: 'https://simplyrecruitinginc.com'
     },
-    { id: 10, title: "LineUP Boutique"                , subtitle: ".",
-      imageUrl: "/images/.jpg",
-      largeImageUrl: [
-        "/images/.jpg",
-        "/images/.jpg"
-      ],
+    { id: 6, title: "Fundacion Taraji"                , subtitle: "",
+      imageUrl: "/images/portfolio-image-6.png",
+      largeImageUrl: ["/images/portfolio-image-6-lg.png"],
+      url: 'https://fundaciontaraji.org'
+    },
+    { id: 7, title: "Inlab - Insumos para laboratorio", subtitle: "",
+      imageUrl: "/images/portfolio-image-7.png",
+      largeImageUrl: ["/images/portfolio-image-7-lg.png"],
+      url: 'https://inlabmexico.com'
+    },
+    { id: 8, title: "Mr. Nails"                       , subtitle: "",
+      imageUrl: "/images/portfolio-image-8.png",
+      largeImageUrl: ["/images/portfolio-image-8-lg.png"],
+      url: 'https://mrnails.com.mx'
+    },
+    { id: 9, title: "Mr Cachuchero"                   , subtitle: "",
+      imageUrl: "/images/portfolio-image-9.png",
+      largeImageUrl: ["/images/portfolio-image-9-lg.png"],
+      url: 'https://mrcachuchero.com'
+    },
+    { id: 10, title: "LineUP Boutique"                , subtitle: "",
+      imageUrl: "/images/portfolio-image-10.png",
+      largeImageUrl: ["/images/portfolio-image-10-lg.png"],
       url: 'https://lineupboutique.com'
     }
   ],
@@ -138,21 +111,21 @@ const database = {
       },
       {id: 2, year: "May 2019 – Present",   position: "Team Manager",                             company: "Spanish Bank East Concession",
         details: "•	Improve the operations time with the implementation of new methodologies in the front desk, kitchen and storage, increase the productivity of employees and teamwork, reducing time lost and disorganization."
-                //•	Implemented new methodologies with the management of the food, beverages and products.
+                //•	Implemented new methodologies with the management of the food, beverages and products.\
                 //•	Attention to customers and suppliers to answer questions and solve any complaints."
       },
       {id: 3, year: "Aug 2019 – Dec 2019",  position: "Full Stack Software Developer",            company: "10 Star",
         details: "•	Improve the management and control of contracts, events and budgets of the company developing a high-quality internal web application implementing new frameworks and methodologies in the process."
-                //•	Complete planning, analysis, design, development and execution of the system.
+                //•	Complete planning, analysis, design, development and execution of the system.\
                 //•	Design and programming of Query used in the database using the best practices."
       },
       {id: 4, year: "Jun 2013 – Dec 2018",  position: "Full Stack Software Developer",            company: "Altos Hornos de México",
         details: "•	Reduced the time of operations, enforce and money lost of different departments of the company developing more than 10 high-quality and reliable internal software in different platforms. "
-                //"•	Improved the performance of 10 additional internal software previously developed by other developers, implementing new methodologies and algorithms which help in the processing of the information."
-                //"•	Design and programming of Query used in the database using the best practices."
-                //"•	Complete planning, analysis, design, development and execution of the system."
-                //"•	Creation and coordination of reports, policies, formats, system manuals, and meetings." 
-                //"•	End-user support and training to answer questions or solve any issue about systems."
+                //•	Improved the performance of 10 additional internal software previously developed by other developers, implementing new methodologies and algorithms which help in the processing of the information.\
+                //•	Design and programming of Query used in the database using the best practices.\
+                //•	Complete planning, analysis, design, development and execution of the system.\
+                //•	Creation and coordination of reports, policies, formats, system manuals, and meetings.\
+                //•	End-user support and training to answer questions or solve any issue about systems."
       },
       {id: 5, year: "Jun 2011 – Dec 2011",  position: "Internship as Junior Software Developer",  company: "Altos Hornos de México",
         details: "•	Helped create and improve efficient and reliable internal website to show the agreements and benefits to employees with city businesses"
@@ -188,8 +161,8 @@ const database = {
     }
   ],
   contactInfo: {
-    phoneNumbers: ['236-979-0254', '236-979-0254'],
-    emailAddress: ['hermilo.jh@gmail.com', 'hermilo.jh@gmail.com'],
+    phoneNumbers: ['236-979-0254'],
+    emailAddress: ['hermilo.jh@gmail.com'],
     address: "4615 West 10th Avenue, Vancouver, BC"
   }
 }
