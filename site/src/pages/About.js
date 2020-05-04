@@ -9,10 +9,10 @@ import Service from '../components/Service';
 import Testimonial from '../components/Testimonial';
 
 function About(){
-  const [toggler, setToggler] = useState(false);
+  const [toggler,     setToggler    ] = useState(false);
   const [information, setInformation] = useState("");
-  const [services, setServices] = useState([]);
-  const [reviews, setReviews] = useState([]);
+  const [services,    setServices   ] = useState([]);
+  const [reviews,     setReviews    ] = useState([]);
 
   const sliderSettings = {
     dots: false,

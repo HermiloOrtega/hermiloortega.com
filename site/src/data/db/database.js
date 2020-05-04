@@ -2,470 +2,195 @@ import Mock from "../mock";
 
 const database = {
   information: {
-    name: 'Devid Chester',
-    aboutContent: "I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.",
-    age: 24,
-    phone: '',
-    nationality: 'American',
-    language: 'English, French',
-    email: '',
-    address: '121 King Street, Melbourne, Australia',
-    freelanceStatus: 'Available',
+    name: 'Hermilo Ortega',
+    aboutContent: "I am a Full Stack Software Developer with 6+ years of experience."+
+                  " helping companies to reduce time, costs and effort automating processes through high-performance"+
+                  " web technologies and implementing advanced methodologies to manage business according to their needs."+
+                  " Team player with a will-do attitude and strong user focus.",
+    //age: 28,
+    phone: '(236) 979 0254',
+    //nationality: 'Mexican',
+    language: 'English, Spanish',
+    email: 'hermilo.jh@gmail.com',
+    address: '4615 West 10th Avenue, Vancouver, BC',
+    //freelanceStatus: 'Available',
     socialLinks: {
-      facebook: 'https://facebook.com',
-      twitter: 'https://twitter.com',
-      pinterest: '',
-      behance: '',
-      linkedin: '',
-      dribbble: '',
-      github: 'https://github.com'
+      facebook:   'https://www.facebook.com/josehermilo1',
+      twitter:    'https://twitter.com/Hermilo_O_Mtz',
+      pinterest:  '',
+      behance:    '',
+      linkedin:   'https://linkedin.com/in/hermilomartinez',
+      dribbble:   '',
+      github:     'https://github.com/hermiloortega'
     },
-    brandImage: '/images/brand-image.jpg',
-    aboutImage: '/images/about-image.jpg',
+    brandImage:   '/images/brand-image.jpg',
+    aboutImage:   '/images/about-image.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
-    cvfile: '/files/empty.pdf'
+    cvfile:       '/files/empty.pdf'
   },
   services: [
-    {
-      title: "Web Design",
-      icon: 'color-pallet',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    },
-    {
-      title: "Web Development",
-      icon: 'code',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    },
-    {
-      title: "Mobile Application",
-      icon: 'mobile',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    }
+    { title: "Web Design",          icon: 'color-pallet', details: "." },
+    { title: "Web Development",     icon: 'code',         details: "." },
+    { title: "Mobile Application",  icon: 'mobile',       details: "." }
   ],
   reviews: [
-    {
-      id: 1,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam, aliquid maxime tempora.",
-      author: {
-        name: 'Burdette Turner',
-        designation: 'Web Developer, Abc Company'
-      }
+    { id: 1, content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam, aliquid maxime tempora.",
+      author: { name: 'Burdette Turner', designation: 'Web Developer, Abc Company' }
     },
-    {
-      id: 2,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam.",
-      author: {
-        name: 'Susan Yost',
-        designation: 'Client'
-      }
+    { id: 2, content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam.",
+      author: { name: 'Susan Yost', designation: 'Client' }
     },
-    {
-      id: 3,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-      author: {
-        name: 'Irving Feeney',
-        designation: 'Fiverr Client'
-      }
+    { id: 3, content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+      author: { name: 'Irving Feeney', designation: 'Fiverr Client' }
     }
   ],
   skills: [
-    {
-      title: "HTML5",
-      value: 95
-    },
-    {
-      title: "CSS3",
-      value: 90
-    },
-    {
-      title: "Javascript",
-      value: 70
-    },
-    {
-      title: "jQuery",
-      value: 85
-    },
-    {
-      title: "ReactJS",
-      value: 80
-    },
-    {
-      title: "Photoshop",
-      value: 65
-    }
+    { title: "C#"                       , value: 95 },
+    { title: "SQL Server, MySQL"        , value: 95 },
+    { title: "HTML5, CSS3"              , value: 85 },
+    { title: "JavaScript, jQuery"       , value: 70 },
+    { title: "ReactJS, Angular"         , value: 70 },
+    { title: "Node.js, Laravel, Django" , value: 60 }
   ],
   portfolios: [
-    {
-      id: 1,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
+    { id: 1, title: "Jucod"                           , subtitle: "Web and Mobile App Development website.",
       imageUrl: "/images/portfolio-image-1.jpg",
       largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
+      url: 'https://jucod.com'
     },
-    {
-      id: 2,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
+    { id: 2, title: "English and Tours"               , subtitle: "Awesome travel agency.",
       imageUrl: "/images/portfolio-image-4.jpg",
       largeImageUrl: [
         "/images/portfolio-image-4-lg.jpg",
         "/images/portfolio-image-4-lg2.jpg"
       ],
-      url: 'https://facebook.com'
+      url: 'https://englishandtours.com'
     },
-    {
-      id: 3,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
-    },
-    {
-      id: 4,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
-    },
-    {
-      id: 5,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
-    },
-    {
-      id: 6,
-      title: "Pendrive",
-      subtitle: "Free pendrive mockup design.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
-    },
-    {
-      id: 7,
-      title: "Beautiful Pendrive",
-      subtitle: "Pendrive with great design & flexible.",
-      imageUrl: "/images/portfolio-image-7.jpg",
-      largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
-      url: 'https://twitter.com'
-    },
-    {
-      id: 8,
-      title: "Sticker",
-      subtitle: "Clip sticker mockup design.",
-      imageUrl: "/images/portfolio-image-8.jpg",
-      largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
-    },
-    {
-      id: 9,
-      title: "Packet",
-      subtitle: "Beautiful packet & product design.",
-      imageUrl: "/images/portfolio-image-9.jpg",
-      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"]
-    },
-    {
-      id: 10,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
-    },
-    {
-      id: 11,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
+    { id: 3, title: "Servicios DAESA"                 , subtitle: "Professional Industrial engineer.",
+      imageUrl: "/images/.jpg",
       largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
+        "/images/.jpg",
+        "/images/.jpg"
       ],
-      url: 'https://facebook.com'
+      url: 'https://.com'
     },
-    {
-      id: 12,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
-    },
-    {
-      id: 13,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
-    },
-    {
-      id: 14,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
-    },
-    {
-      id: 15,
-      title: "Pendrive",
-      subtitle: "Free pendrive mockup design.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
-    },
-    {
-      id: 16,
-      title: "Beautiful Pendrive",
-      subtitle: "Pendrive with great design & flexible.",
-      imageUrl: "/images/portfolio-image-7.jpg",
-      largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
-      url: 'https://twitter.com'
-    },
-    {
-      id: 17,
-      title: "Sticker",
-      subtitle: "Clip sticker mockup design.",
-      imageUrl: "/images/portfolio-image-8.jpg",
-      largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
-    },
-    {
-      id: 18,
-      title: "Packet",
-      subtitle: "Beautiful packet & product design.",
-      imageUrl: "/images/portfolio-image-9.jpg",
-      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"]
-    },
-    {
-      id: 19,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
-    },
-    {
-      id: 20,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
+    { id: 4, title: "Fundacion Taraji"                , subtitle: ".",
+      imageUrl: "/images/.jpg",
       largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
+        "/images/.jpg",
+        "/images/.jpg"
       ],
-      url: 'https://facebook.com'
+      url: 'https://.com'
     },
-    {
-      id: 21,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
+    { id: 5, title: "InLab - Insumos para laboratorio", subtitle: ".",
+      imageUrl: "/images/.jpg",
+      largeImageUrl: [
+        "/images/.jpg",
+        "/images/.jpg"
+      ],
+      url: 'https://inlabmexico.com'
     },
-    {
-      id: 22,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
+    { id: 6, title: "Mr. Nails."                      , subtitle: ".",
+      imageUrl: "/images/.jpg",
+      largeImageUrl: [
+        "/images/.jpg",
+        "/images/.jpg"
+      ],
+      url: 'https://mrnails.com.mx'
     },
-    {
-      id: 23,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
+    { id: 7, title: "Working4U"                       , subtitle: ".",
+      imageUrl: "/images/.jpg",
+      largeImageUrl: [
+        "/images/.jpg",
+        "/images/.jpg"
+      ],
+      url: 'https://working4ubc.ca'
+    },
+    { id: 8, title: "Mr Cachuchero"                   , subtitle: ".",
+      imageUrl: "/images/.jpg",
+      largeImageUrl: [
+        "/images/.jpg",
+        "/images/.jpg"
+      ],
+      url: 'https://mrcachuchero.com'
+    },
+    { id: 9, title: "Simply Recruiting Inc."          , subtitle: ".",
+      imageUrl: "/images/.jpg",
+      largeImageUrl: [
+        "/images/.jpg",
+        "/images/.jpg"
+      ],
+      url: 'https://simplyrecruitinginc.com'
+    },
+    { id: 10, title: "LineUP Boutique"                , subtitle: ".",
+      imageUrl: "/images/.jpg",
+      largeImageUrl: [
+        "/images/.jpg",
+        "/images/.jpg"
+      ],
+      url: 'https://lineupboutique.com'
     }
   ],
   experience: {
     workingExperience: [
-      {
-        id: 1,
-        year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+      {id: 1, year: "Jan 2019 – Present",   position: "Full Stack Software Developer",            company: "Jucod IT Company",
+        details: "• Help companies to reduce time, costs and effort automating processes through high-performance web technologies and implementing advanced methodologies to manage business according to their needs."
       },
-      {
-        id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+      {id: 2, year: "May 2019 – Present",   position: "Team Manager",                             company: "Spanish Bank East Concession",
+        details: "•	Improve the operations time with the implementation of new methodologies in the front desk, kitchen and storage, increase the productivity of employees and teamwork, reducing time lost and disorganization."
+                //•	Implemented new methodologies with the management of the food, beverages and products.
+                //•	Attention to customers and suppliers to answer questions and solve any complaints."
       },
-      {
-        id: 3,
-        year: "2014 - 1016",
-        position: "UI/UX Designer",
-        company: "Example Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+      {id: 3, year: "Aug 2019 – Dec 2019",  position: "Full Stack Software Developer",            company: "10 Star",
+        details: "•	Improve the management and control of contracts, events and budgets of the company developing a high-quality internal web application implementing new frameworks and methodologies in the process."
+                //•	Complete planning, analysis, design, development and execution of the system.
+                //•	Design and programming of Query used in the database using the best practices."
+      },
+      {id: 4, year: "Jun 2013 – Dec 2018",  position: "Full Stack Software Developer",            company: "Altos Hornos de México",
+        details: "•	Reduced the time of operations, enforce and money lost of different departments of the company developing more than 10 high-quality and reliable internal software in different platforms. "
+                //"•	Improved the performance of 10 additional internal software previously developed by other developers, implementing new methodologies and algorithms which help in the processing of the information."
+                //"•	Design and programming of Query used in the database using the best practices."
+                //"•	Complete planning, analysis, design, development and execution of the system."
+                //"•	Creation and coordination of reports, policies, formats, system manuals, and meetings." 
+                //"•	End-user support and training to answer questions or solve any issue about systems."
+      },
+      {id: 5, year: "Jun 2011 – Dec 2011",  position: "Internship as Junior Software Developer",  company: "Altos Hornos de México",
+        details: "•	Helped create and improve efficient and reliable internal website to show the agreements and benefits to employees with city businesses"
+                //•	End-user support and training to answer questions or solve any issue about systems."
       }
     ],
     educationExperience: [
-      {
-        id: 1,
-        year: "2018 - 2019",
-        graduation: "Master of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+      {id: 1, year: "2016 - 2017", graduation: "Master´s Degree in Software Engineer",          university: "Instituto de Estudios Universitarios"//,
+        //details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
       },
-      {
-        id: 2,
-        year: "2016 - 2018",
-        graduation: "Bachelor of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+      {id: 2, year: "2014 - 2016", graduation: "Master´s Degree in Leadership and Management",  university: "Universidad Autónoma del Noreste"//,
+        //details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
       },
-      {
-        id: 3,
-        year: "2015 - 2016",
-        graduation: "Higher Schoold Graduation",
-        university: "Abc College",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+      {id: 3, year: "2009 - 2013", graduation: "Bachelor´s Degree in Computer Science",         university: "Instituto Tecnológico Superior de Monclova"//,
+        //details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
       }
     ]
   },
   blogs: [
-    {
-      id: 1,
-      title: 'Markdown & Html supported blog.',
+    { id: 1, title: 'Markdown & Html supported blog.',
       featuredImage: '/images/blog-image-1.jpg',
       filesource: '../../blog/markdown-html-supported-blog.md',
       createDay: "20",
       createMonth: 'February',
       createYear: "2020"
     },
-    {
-      id: 2,
-      title: 'Installing NodeJS on your device.',
+    { id: 2, title: 'Installing NodeJS on your device.',
       featuredImage: '/images/blog-image-2.jpg',
       filesource: '../../blog/installing-nodejs-on-your-device.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 3,
-      title: 'UI/UX design starter with Adobe XD.',
-      featuredImage: '/images/blog-image-3.jpg',
-      filesource: '../../blog/uiux-design-starter-with-adobe-xd.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 4,
-      title: 'Boost your post for increasing sales.',
-      featuredImage: '/images/blog-image-4.jpg',
-      filesource: '../../blog/boost-your-post-for-increasing-sales.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 5,
-      title: 'Difference between GatsbyJS & NextJS.',
-      featuredImage: '/images/blog-image-5.jpg',
-      filesource: '../../blog/difference-between-gatsbyjs-and-nextjs.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 6,
-      title: 'How to choose javascript framework for project.',
-      featuredImage: '/images/blog-image-6.jpg',
-      filesource: '../../blog/how-to-choose-javascript-framework-for-project.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 7,
-      title: 'Web automation with python language.',
-      featuredImage: '/images/blog-image-7.jpg',
-      filesource: '../../blog/web-automation-with-python-language.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 8,
-      title: 'Time to use latest technology for creating a website.',
-      featuredImage: '/images/blog-image-8.jpg',
-      filesource: '../../blog/time-to-use-latest-technology-for-creating-a-website.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 9,
-      title: 'Think out of the box.',
-      featuredImage: '/images/blog-image-9.jpg',
-      filesource: '../../blog/think-out-of-the-box.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 10,
-      title: 'Trending designs in 2020.',
-      featuredImage: '/images/blog-image-1.jpg',
-      filesource: '../../blog/trending-designs-in-2020.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 11,
-      title: 'How to get 10k instagram followers?',
-      featuredImage: '/images/blog-image-2.jpg',
-      filesource: '../../blog/how-to-get-10k-instagram-followers.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 12,
-      title: 'What NodeJS can do?',
-      featuredImage: '/images/blog-image-3.jpg',
-      filesource: '../../blog/what-nodejs-can-do.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 13,
-      title: 'Futures of javascript.',
-      featuredImage: '/images/blog-image-4.jpg',
-      filesource: '../../blog/future-of-javascript.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 14,
-      title: 'Popular javascript library in 2020.',
-      featuredImage: '/images/blog-image-5.jpg',
-      filesource: '../../blog/popular-javascript-library-in-2020.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 15,
-      title: 'Promrammers must read books.',
-      featuredImage: '/images/blog-image-6.jpg',
-      filesource: '../../blog/programmers-must-read-books.md',
       createDay: "20",
       createMonth: 'February',
       createYear: "2020"
     }
   ],
   contactInfo: {
-    phoneNumbers: ['+012-3456-7891', '+012-3456-7892'],
-    emailAddress: ['admin.sitename@example.com', 'info.sitename@example.com'],
-    address: "121 King Street, Melbourne, Victoria 3000, Australia"
+    phoneNumbers: ['236-979-0254', '236-979-0254'],
+    emailAddress: ['hermilo.jh@gmail.com', 'hermilo.jh@gmail.com'],
+    address: "4615 West 10th Avenue, Vancouver, BC"
   }
 }
 
@@ -474,37 +199,30 @@ Mock.onGet("/api/information").reply(config => {
   const response = database.information;
   return [200, response];
 });
-
 Mock.onGet("/api/services").reply(config => {
   const response = database.services;
   return [200, response];
 });
-
 Mock.onGet("/api/reviews").reply(config => {
   const response = database.reviews;
   return [200, response];
 });
-
 Mock.onGet("/api/skills").reply(config => {
   const response = database.skills;
   return [200, response];
 });
-
 Mock.onGet("/api/portfolios").reply(config => {
   const response = database.portfolios;
   return [200, response];
 });
-
 Mock.onGet("/api/experience").reply(config => {
   const response = database.experience;
   return [200, response];
 });
-
 Mock.onGet("/api/blog").reply(config => {
   const response = database.blogs;
   return [200, response];
 });
-
 Mock.onGet("/api/contactinfo").reply(config => {
   const response = database.contactInfo;
   return [200, response];
