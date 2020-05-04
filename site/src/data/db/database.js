@@ -3,9 +3,7 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Hermilo Ortega',
-    aboutContent: "I am a Full Stack Software Developer with 6+ years of experience."+
-                  " helping companies to reduce time, costs and effort automating processes through high-performance"+
-                  " web technologies and implementing advanced methodologies to manage business according to their needs.",
+    aboutContent: "Full Stack Software Developer with 6+ years of experience, helping companies to reduce time, costs and effort automating processes through high-performance software.",
                   //" Team player with a will-do attitude and strong user focus.",
     //age: 28,
     phone: '(236) 979 0254',
@@ -26,7 +24,7 @@ const database = {
     brandImage:   '/images/Hermilo-Ortega.png',
     aboutImage:   '/images/about-image.png',
     aboutImageLg: '/images/about-image-lg.png',
-    cvfile:       '/files/empty.pdf'
+    cvfile:       '/files/JoseOrtega-Resume.docx'
   },
   services: [
     { title: "Software Development",  icon: 'code',   details: "" },
@@ -34,13 +32,13 @@ const database = {
     { title: "Mobile Application",    icon: 'mobile', details: "" }
   ],
   reviews: [
-    { id: 1, content: "Hermilo help me with the Web design and marketing of my website and is amazing! He is very kind and always work very hard",
+    { id: 1, content: "Hermilo help me with the design and marketing of my website and is amazing! He is very kind and always work very hard.",
       author: { name: 'Fernando Aguilar', designation: 'CEO Working4U' }
     },
-    { id: 2, content: "I start to work with hermilo since January with the develop of my website and the social media marketing and thanks him I increase my sell's, I love the website and the work that he do.",
+    { id: 2, content: "I start to work with Hermilo since January with the develop of my website and the social media marketing and thank to him I increase my sells, I love the website and the work that he do.",
       author: { name: 'Cristela Berenice', designation: 'Inlab Owner' }
     },
-    { id: 3, content: "I love my website and nowadays I'm still working with hermilo building a new e-commerce, he is very reliable, always working on time. ",
+    { id: 3, content: "I love my website and nowadays I'm still working with Hermilo building a new e-commerce, He is very reliable, always working on time. ",
       author: { name: 'Paulo Cesar Ortiz', designation: 'English and Tours Owner' }
     }
   ],
@@ -133,7 +131,7 @@ const database = {
       }
     ],
     educationExperience: [
-      {id: 1, year: "2016 - 2017", graduation: "Master´s Degree in Software Engineer",          university: "Instituto de Estudios Universitarios"//,
+      {id: 1, year: "2016 - 2017", graduation: "Master´s Degree in Software Engineering",       university: "Instituto de Estudios Universitarios"//,
         //details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
       },
       {id: 2, year: "2014 - 2016", graduation: "Master´s Degree in Leadership and Management",  university: "Universidad Autónoma del Noreste"//,
