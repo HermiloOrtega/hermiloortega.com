@@ -6,6 +6,15 @@ import About      from "./pages/About";
 import Resumes    from "./pages/Resumes";
 import Portfolios from "./pages/Portfolios";
 import Contact    from "./pages/Contact";
+import ReactGA    from 'react-ga';
+
+ReactGA.initialize('UA-142409004-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
+//ReactGA.pageview('./pages/Home');
+//ReactGA.pageview('./pages/About');
+//ReactGA.pageview('./pages/Resumes');
+//ReactGA.pageview('./pages/Portfolios');
+//ReactGA.pageview('./pages/Contact');
 
 function App() {
   return (
