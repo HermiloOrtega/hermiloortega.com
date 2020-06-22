@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import axios from 'axios';
-import Particles from "react-particles-js";
-import Socialicons from "../components/Socialicons";
-import Layout from "../components/Layout";
+import axios        from 'axios';
+import Particles    from "react-particles-js";
+import Socialicons  from "../components/Socialicons";
+import Layout       from "../components/Layout";
 
 function Home(){
   const [information, setInformation] = useState("");

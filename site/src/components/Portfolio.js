@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import * as Icon from "react-feather";
-import FsLightbox from "fslightbox-react";
+import React, { useState }  from "react";
+import * as Icon            from "react-feather";
+import FsLightbox           from "fslightbox-react";
 
 function Portfolio(props) {
   const [toggler, setToggler] = useState(false);

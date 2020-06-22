@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import ReactMarkdown from "react-markdown/with-html";
-import axios from "axios";
-import Disqus from "disqus-react";
-import Layout from "../components/Layout";
+import ReactMarkdown                  from "react-markdown/with-html";
+import axios                          from "axios";
+import Disqus                         from "disqus-react";
+import Layout                         from "../components/Layout";
 
 function BlogDetails(props) {
   const [content, setContent] = useState("");

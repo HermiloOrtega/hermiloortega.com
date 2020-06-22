@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import axios from 'axios';
-import Sectiontitle from "../components/Sectiontitle";
-import Layout from "../components/Layout";
-import Pagination from "../components/Pagination";
+import axios          from 'axios';
+import Sectiontitle   from "../components/Sectiontitle";
+import Layout         from "../components/Layout";
+import Pagination     from "../components/Pagination";
 import PortfoliosView from "../components/PortfoliosView";
 
 function Portfolios() {

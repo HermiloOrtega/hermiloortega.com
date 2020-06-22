@@ -45,7 +45,7 @@ const database = {
   skills: [
     { title: "C#"                       , value: 95 },
     { title: "SQL Server, MySQL"        , value: 95 },
-    { title: "HTML5, CSS3"              , value: 85 },
+    { title: "HTML5, CSS3, PHP"         , value: 85 },
     { title: "JavaScript, jQuery"       , value: 70 },
     { title: "ReactJS, Angular"         , value: 70 },
     { title: "Node.js, Laravel, Django" , value: 60 }
@@ -60,43 +60,33 @@ const database = {
       imageUrl: "/images/portfolio-image-2.png",
       largeImageUrl: ["/images/portfolio-image-2-lg.png"],
       url: 'https://englishandtours.com'
-    },
-    { id: 3, title: "Servicios DAESA"                 , subtitle: "Professional Industrial engineer.",
-      imageUrl: "/images/portfolio-image-3.png",
-      largeImageUrl: ["/images/portfolio-image-3-lg.png"],
-      url: 'https://serviciosdaesa.com'
-    },
-    { id: 4, title: "Working4U"                       , subtitle: "",
+    },,
+    { id: 3, title: "Working4U"                       , subtitle: "",
       imageUrl: "/images/portfolio-image-4.png",
       largeImageUrl: ["/images/portfolio-image-4-lg.png"],
       url: 'https://working4ubc.ca'
     },
-    { id: 5, title: "Simply Recruiting Inc."          , subtitle: "",
+    { id: 4, title: "Simply Recruiting Inc."          , subtitle: "",
       imageUrl: "/images/portfolio-image-5.png",
       largeImageUrl: ["/images/portfolio-image-5-lg.png"],
       url: 'https://simplyrecruitinginc.com'
     },
-    { id: 6, title: "Fundacion Taraji"                , subtitle: "",
+    { id: 5, title: "Fundacion Taraji"                , subtitle: "",
       imageUrl: "/images/portfolio-image-6.png",
       largeImageUrl: ["/images/portfolio-image-6-lg.png"],
       url: 'https://fundaciontaraji.org'
     },
-    { id: 7, title: "Inlab - Insumos para laboratorio", subtitle: "",
+    { id: 6, title: "Inlab - Insumos para laboratorio", subtitle: "",
       imageUrl: "/images/portfolio-image-7.png",
       largeImageUrl: ["/images/portfolio-image-7-lg.png"],
       url: 'https://inlabmexico.com'
-    },
-    { id: 8, title: "Mr. Nails"                       , subtitle: "",
-      imageUrl: "/images/portfolio-image-8.png",
-      largeImageUrl: ["/images/portfolio-image-8-lg.png"],
-      url: 'https://mrnails.com.mx'
-    },
-    { id: 9, title: "Mr Cachuchero"                   , subtitle: "",
+    },,
+    { id: 7, title: "Mr Cachuchero"                   , subtitle: "",
       imageUrl: "/images/portfolio-image-9.png",
       largeImageUrl: ["/images/portfolio-image-9-lg.png"],
       url: 'https://mrcachuchero.com'
     },
-    { id: 10, title: "LineUP Boutique"                , subtitle: "",
+    { id: 8, title: "LineUP Boutique"                , subtitle: "",
       imageUrl: "/images/portfolio-image-10.png",
       largeImageUrl: ["/images/portfolio-image-10-lg.png"],
       url: 'https://lineupboutique.com'
@@ -143,7 +133,7 @@ const database = {
     ]
   },
   blogs: [
-    { id: 1, title: 'Markdown & Html supported blog.',
+    /*{ id: 1, title: 'Markdown & Html supported blog.',
       featuredImage: '/images/blog-image-1.jpg',
       filesource: '../../blog/markdown-html-supported-blog.md',
       createDay: "20",
@@ -156,7 +146,7 @@ const database = {
       createDay: "20",
       createMonth: 'February',
       createYear: "2020"
-    }
+    }*/
   ],
   contactInfo: {
     phoneNumbers: ['236-979-0254'],
@@ -190,10 +180,10 @@ Mock.onGet("/api/experience").reply(config => {
   const response = database.experience;
   return [200, response];
 });
-Mock.onGet("/api/blog").reply(config => {
-  const response = database.blogs;
-  return [200, response];
-});
+//Mock.onGet("/api/blog").reply(config => {
+//  const response = database.blogs;
+//  return [200, response];
+//});
 Mock.onGet("/api/contactinfo").reply(config => {
   const response = database.contactInfo;
   return [200, response];

@@ -1,4 +1,4 @@
-import React from 'react';
+import React    from 'react';
 import LineIcon from "react-lineicons";
 
 function Service(props){

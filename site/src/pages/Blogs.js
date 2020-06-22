@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
-import Sectiontitle from "../components/Sectiontitle";
-import Layout from "../components/Layout";
-import BlogsView from "../components/BlogsView";
-import Pagination from "../components/Pagination";
+import axios                          from "axios";
+import Sectiontitle                   from "../components/Sectiontitle";
+import Layout                         from "../components/Layout";
+import BlogsView                      from "../components/BlogsView";
+import Pagination                     from "../components/Pagination";
 
 function Blogs() {
   const [posts, setPosts] = useState([]);

@@ -1,6 +1,6 @@
-import React from "react";
-import Header from "../components/Header";
-import BackgroundLines from "../components/BackgroundLines";
+import React            from "react";
+import Header           from "../components/Header";
+import BackgroundLines  from "../components/BackgroundLines";
 
  function Layout(props){
   return (
@@ -11,5 +11,4 @@ import BackgroundLines from "../components/BackgroundLines";
     </div>
   );
 }
-
 export default Layout;
